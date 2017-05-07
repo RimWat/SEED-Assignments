@@ -1,0 +1,27 @@
+<!DOCTYPE charset="UTF-8">
+<html>
+	<head>
+		<title>Student Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>	
+		<!-- Latest compiled and minified CSS -->	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	</head>
+	<body class="container">
+		<h1>Dynamic Form</h1>		
+		<div class="page-header"><a href="DynamicTable.html">Dynamic Table</a></div>
+		
+		Enter Student ID: <input type="text" id="studentID" placeholder="Enter student ID" />
+		Enter Student Name:<input type="text" id="studentName" placeholder="Enter student Name" />
+		Enter Student Major: <input type="text" id="studentMajor" placeholder="Enter student Major" />
+		<button id="addStudentBtn" type="submit" class="btn btn-primary">Add Student</button>
+		<br><br>
+		<!--<div class="well">-->
+			<form id="studentForm"class="form-group">
+				<input id="studentInput" value="Clear" type="submit" class="btn btn-outline-secondary"></input>
+			</form><br>
+		<!--</div>-->
+		<script type="text/javascript" src="../js/DynamicForm.js" ></script>
+	</body>
+</html>

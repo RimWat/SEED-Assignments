@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Pokemon</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Gotta Catch'em All! AJAX!!!</h1>
+			<span class="label label-success">Using the RESTful pokemon API</span>
+		</div>
+		<div class="well">
+			<!-- user inputs required pokemon id -->
+			<input id="pokeId" type="text" placeholder="Enter a Pokemon Id" class="form-control" /><br>
+			<input id="pokeBtn" type="submit" value="Get Pokemon Info" class="form-control btn btn-info"/>
+		</div>
+		<div class="well text-center">
+			<h3 id="pokeName">Pokemon Name</h3>
+			<!-- Section to display pokemon information -->
+			<img id="pokePic" src="" alt="">
+		</div>
+	</div>
+		<script type="text/javascript" src="../js/Pokemon.js"></script>
+	</body>
+</html>

@@ -1,0 +1,169 @@
+<html>
+	<head>
+		<title>Index page of the application</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	</head>
+	<body style="background-color:lightgray">
+
+		<!-- h1, p, b, strong-->
+		<h1 id="top"> 
+			<p title="What is this??">Learning different tags/elements, attributes in HTML</p>
+		</h1>
+		<h2>
+			<a href="#bottom">Go to the bottom?</a>
+			<a href="AboutMe.html">About Me</a>
+		</h2>
+		<div id="learnfonts">
+			<p style="font-family:verdana;">I prefer verdana over other fonts</p>
+			<p style="font-size:150%;font-family:arial, tahoma, sans-serif">
+			Arial is the best, Tahoma looks nicer
+			</p>
+			<p>
+				<h1 style="text-align:center-left">That's how the fight between Arial, Verdana and Tahoma started</h1>
+			</p>
+		</div>
+		<div id="main">
+			<p title="Is the tool tip displayed properly">Adam claims bold <b>doesn't work </b> in paragraph
+			</p>
+			<p>What is the difference between <strong>strong</strong> and <b>bold</b>
+			</p>
+			<pre>What does pre tag mean?</pre>
+			<p>Next topics are 
+				<i title="tool tip for a word">covering</i> most commonly used html tags</p>
+		</div>
+		<hr>
+		<div>
+			<a href="http://www.google.com"> Click here to Google </a><br>
+			<!-- learning about images-->
+			<img alt="Puppy" src="Puppy.jpg"/><br>
+			<img alt="Cat Family" src="img/Cats.jpg" width=40%></img>
+			<br>
+			<img alt="Dog Family" src="../Dogs.jpg" width=30%/>
+		</div>
+		<div class="table" >
+		<!-- tr td th -->
+		<table border=1>
+			<tr>
+				<th> Employee ID </th>
+				<th> Employee Name </th>
+				<th> Start Date </th>
+				<th> Department </th>
+				<th> Program Name </th>
+				<th> Trainer / Coach / Mentor </th>
+				<th> HR Contact </th>
+			</tr>
+			<tr>
+				<td>3343443</td>
+				<td>Michael</td>
+				<td>04/24/2017</td>
+				<td>Training</td>
+				<td>SEED</td>
+				<td>Yuvi</td>
+				<td>Meghan</td>
+			</tr>
+			<tr>
+				<td>98988</td>
+				<td>Peter</td>
+				<td>04/24/2017</td>
+				<td>Training</td>
+				<td>SEED</td>
+				<td>Yuvi</td>
+				<td>Avery</td>
+			</tr>
+			<tr>
+				<td>787873</td>
+				<td>Andrew</td>
+				<td>04/24/2017</td>
+				<td>Training</td>
+				<td>SEED</td>
+				<td>Yuvi</td>
+				<td>Meghan</td>
+			</tr>
+			<tr>
+				<td>2222255</td>
+				<td>Robert</td>
+				<td>04/24/2017</td>
+				<td>Training</td>
+				<td>SEED</td>
+				<td>Yuvi</td>
+				<td>Avery</td>
+			</tr>
+		</table>
+		</div>
+		<ul>
+			<li>Movies</li>
+				<ul>
+					<li>Lego Batman</li>
+					<li>Gaurdians of the Galaxy</li>
+					<li>Logan</li>
+					<li>The Notebook</li>
+					<li>Baby Boss</li>
+					<li>Power Rangers</li>
+					<li>Kong</li>
+				</ul>
+			<li>Games</li>
+				<ul>
+					<li>Uncharted</li>
+					<li>Halo</li>
+				</ul>
+		</ul>
+		<ol>
+			<li>Programming Languages
+				<ol>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+					<li>Fortran</li>
+					<li>Java</li>
+					<li>Python</li>
+					<li>C</li>
+					<li>.Net</li>
+					<li>C#</li>
+				</ol>
+			</li>
+			<li>Spoken Languages
+				<ol>
+					<li>English</li>
+					<li>Spanish</li>
+					<li>Korean</li>
+					<li>French</li>
+					<li>Japanese</li>
+					<li>Kurdish</li>
+					<li>Telugu</li>
+					<li>ASL</li>
+					<li>Tamil</li>
+				</ol>
+			</li>
+		</ol>
+		
+		<form>
+			Enter User name: <input type="text" name="username" value=""> </input> <br>
+			Enter password: <input type="password" name="pass"></input>
+							<br>
+			Gender :	<input type="radio" name="male_female" value="Male">M</input>
+						<input type="radio" name="male_female" value="Female">F</input>
+						<br>
+			Feedback  : <input type="textarea" name="Feedback" rows=50 columns=40></input><br>
+			I like these sports  : 
+			<input type="checkbox" name="sports">Football</input>
+			<input type="checkbox" name="sports">Soccer</input>
+			<input type="checkbox" name="sports">Baseball</input>
+			<input type="checkbox" name="sports">Basketball</input>
+			<input type="checkbox" name="sports">PingPong</input>
+			<br>
+			<button type="submit" name="submit" text="submit" >Submit</button>
+			<input name="Cancel" value="Cancel"  type="button"></input>
+		</form>
+		<br>
+		<iframe src="http://www.wikipedia.com" width=40%> WikiPedia
+		</iframe>
+		<iframe src="http://www.espn.com" width=50%> YouTube
+		</iframe>
+		<div id="bottom">
+			<p style="color:red">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. <font color="blue">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</font> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+			</P>
+			<a href="#top"> Wanna go to the top?</a>
+		</div>
+	</body>
+</html>

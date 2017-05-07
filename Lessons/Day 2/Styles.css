@@ -1,0 +1,65 @@
+/*Styles.css*/
+
+body{
+	background-color:lightgray;
+}
+
+#brownsection{
+	font-family: Arial;
+	font-size: 20px;
+	color: brown
+}
+
+#greensection{
+	font-family: Arial;
+	font-size: 20px;
+	color: green
+}
+
+#bluesection{
+	font-family: Tahoma;
+	font-size: 15px;
+	color: darkblue
+}
+
+div.brownclass{
+	border: solid red 1px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center-right;
+}
+
+div.greenclass{
+	border: solid red 1px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center-right;
+}
+
+div.blueclass{
+	border: solid black 1px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center-left;
+}
+
+div.nonred{
+	color: red;
+}
+
+img.dogs{
+	width:40%;
+	opacity: .5;
+	height: auto;	
+}
+
+div.dogs{
+	border: 0px;
+	margin: 5px;
+	width: 50%;
+	height: 30%;
+	color: black;
+	font-size: 10px;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
